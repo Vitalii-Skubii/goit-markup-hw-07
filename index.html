@@ -9,8 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/modern-normalise.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Модальное окно -->
@@ -77,31 +77,31 @@
     <header class="header">
       <div class="container">
         <nav class="nav">
-          <a class="logo link" href="./index.html"
+          <a class="logo header-logo" href="./index.html"
             ><span class="logo-blue">Web</span> Studio</a
           >
-          <ul class="nav-list list">
+          <ul class="nav-list">
             <li class="nav-list-item">
-              <a class="nav-link link nav-current-link" href="">Студия</a>
+              <a class="nav-link nav-current-link" href="">Студия</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+              <a class="nav-link" href="./portfolio.html">Портфолио</a>
             </li>
 
             <li class="nav-list-item">
-              <a class="nav-link link" href="">Контакты</a>
+              <a class="nav-link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
         <address class="adress">
-          <a class="adress-link-header link" href="mailto:info@devstudio.com">
+          <a class="adress-link-header" href="mailto:info@devstudio.com">
             <svg class="icon-nav" width="16" height="11">
               <use href="./images/sprite.svg#icon-letter"></use>
             </svg>
             info@devstudio.com</a
           >
 
-          <a class="adress-link-header link" href="tel:+380961111111">
+          <a class="adress-link-header" href="tel:+380961111111">
             <svg class="icon-nav" width="10" height="15">
               <use href="./images/sprite.svg#icon-cell-phone"></use>
             </svg>
@@ -125,7 +125,7 @@
       <section class="advantages">
         <div class="container">
           <h2 hidden>Наши преимущества</h2>
-          <ul class="advantages-list list">
+          <ul class="advantages-list">
             <li class="advantages-list-item">
               <div class="advantages-list-img">
                 <svg width="70" height="70">
@@ -198,10 +198,10 @@
         </div>
       </section>
       <!-- Что мы делаем -->
-      <section class="activities section">
+      <section class="activities">
         <div class="container">
           <h2 class="activities-title">Чем мы занимаемся</h2>
-          <ul class="activities-list list">
+          <ul class="activities-list">
             <li class="activities-list-item">
               <div class="activities-descr-item">
                 <img
@@ -246,10 +246,10 @@
       </section>
 
       <!-- Наша команда -->
-      <section class="team section">
+      <section class="team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="team-list list">
+          <ul class="team-list">
             <li class="team-list-item">
               <img
                 class="team-list-img"
@@ -260,7 +260,7 @@
               />
               <h3 class="team-list-name">Николай Кучеренко</h3>
               <p class="team-list-item-descr" lang="en">Product Designer</p>
-              <ul class="social-list list">
+              <ul class="social-list">
                 <li class="social-list-item">
                   <a class="social-list-link" href="" aria-label="инстаграм">
                     <svg class="social-list-icon" width="20" height="20">
@@ -309,7 +309,7 @@
               />
               <h3 class="team-list-name">Ольга Иванова</h3>
               <p class="team-list-item-descr" lang="en">Frontend Developer</p>
-              <ul class="social-list list">
+              <ul class="social-list">
                 <li class="social-list-item">
                   <a class="social-list-link" href="" aria-label="инстаграм">
                     <svg class="social-list-icon" width="20" height="20">
@@ -358,7 +358,7 @@
               />
               <h3 class="team-list-name">Андрей Шевченко</h3>
               <p class="team-list-item-descr" lang="en">Marketing</p>
-              <ul class="social-list list">
+              <ul class="social-list">
                 <li class="social-list-item">
                   <a class="social-list-link" href="" aria-label="инстаграм">
                     <svg class="social-list-icon" width="20" height="20">
@@ -407,7 +407,7 @@
               />
               <h3 class="team-list-name">Иван Николаев</h3>
               <p class="team-list-item-descr" lang="en">UI Designer</p>
-              <ul class="social-list list">
+              <ul class="social-list">
                 <li class="social-list-item">
                   <a class="social-list-link" href="" aria-label="инстаграм">
                     <svg class="social-list-icon" width="20" height="20">
@@ -453,7 +453,7 @@
       <section class="clients section">
         <div class="container">
           <h2 class="clients-title">Постоянные клиенты</h2>
-          <ul class="clients-list list">
+          <ul class="clients-list">
             <li>
               <a class="clients-list-link" href="" aria-label="логотип1">
                 <svg class="clients-list-icon" width="31" height="30">
@@ -517,22 +517,22 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-link-list">
-          <a class="logo white link" href="./index.html"
+          <a class="logo white" href="./index.html"
             ><span class="logo-blue">Web</span> Studio</a
           >
           <address class="footer-adress">
             <p class="adress-descr">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="adress-link-footer link" href="mailto:info@devstudio.com"
+            <a class="adress-link-footer" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
-            <a class="adress-link-footer link" href="tel:+380961111111"
+            <a class="adress-link-footer" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </address>
         </div>
         <div class="footer-social">
           <b class="join">присоединяйтесь</b>
-          <ul class="footer-social-list list">
+          <ul class="footer-social-list">
             <li class="social-list-item">
               <a
                 class="social-list-link footer-social-link"
