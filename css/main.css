@@ -163,7 +163,7 @@ img {
   display: block;
 }
 
-.logo, .nav .nav-link, .adress-link-header, .adress-link-footer {
+.logo, .nav .nav-link, .adress-link-header, .adress-link-footer, .projects-list-link {
   display: block;
   text-decoration: none;
   font-style: normal;

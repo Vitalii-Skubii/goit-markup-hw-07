@@ -91,6 +91,7 @@
 }
 
 .projects-list-link {
+  @extend %link;
   &:hover .projects-list-descr,
   &:focus .projects-list-descr {
     transform: translateY(0%);
